@@ -1,24 +1,11 @@
-# Hockey Hub — COMP 584 Project 2
+# COMP 584 Project 2
 
-A responsive hockey-themed page built with HTML and CSS Flexbox.
+I changed the dog example to NHL hockey teams and finished the missing Flexbox rows.
 
-**Live site:** https://eli-cub.github.io/comp584-project2/
+The page has six rows. Rows 3, 4, and 5 use the column widths shown in the assignment screenshots. Row 6 has five smaller cards instead of four.
 
-## Layout
-- **Row 1:** Four single-column cards on desktop.
-- **Row 2:** Two cards spanning two columns each.
-- **Row 3:** A one-column card next to a three-column feature.
-- **Row 4:** One card spanning all four columns.
-- **Row 5:** One-column / two-column / one-column. The middle card is displayed first on tablet and mobile using CSS `order`.
-- **Row 6:** Five equal-width cards on desktop, a different layout from the other rows.
+I used CSS media queries for mobile, tablet, and desktop. The `order` property moves the middle card in row 5 to the top on tablet screens.
 
-The grid uses `display: flex`, `flex-flow: row wrap`, `flex-basis`, and media queries at **480px** and **768px**.
+GitHub Pages: https://eli-cub.github.io/comp584-project2/
 
-## How to view locally
-Open `index.html` in a browser, or use the VS Code Live Server extension.
-
-## Photo credits
-Hockey images are loaded from [Unsplash](https://unsplash.com/s/photos/ice-hockey).
-
-## GitHub Pages
-Publish this repository from **Settings → Pages → Deploy from a branch → main → /(root)**.
+The team logo images are linked from ESPN.
