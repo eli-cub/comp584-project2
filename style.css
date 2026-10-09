@@ -11,22 +11,51 @@ html {
 }
 
 body {
+  margin: 0;
+  background-color: #f2f5f8;
+  color: #253545;
   font-family: Arial, Geneva, sans-serif;
+  line-height: 1.5;
 }
 a {
-  color: #2772B0;
+  color: #21699b;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
 .wrapper {
   width: 97%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 24px auto;
   float: none;
+  padding: 20px 0 30px;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 div img {
   width: 100%;
-  max-width: 225px;
+  max-width: 175px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.page-title {
+  margin: 0 4% 4px;
+  color: #1c344c;
+  font-size: 2rem;
+}
+.page-intro {
+  margin: 0 4% 22px;
+  color: #5d6d7c;
+}
+h3 {
+  margin: 0 0 10px;
+  color: #1d354a;
+}
+p {
+  font-size: 0.95rem;
 }
 
 /* grid system -- mobile first! */
@@ -34,29 +63,35 @@ div img {
 .row {
   display: flex;
   flex-flow: row wrap;
+  row-gap: 16px;
+  margin-bottom: 16px;
 }
 
 /* margin between columns and styles for flex items */
 [class*="col-"] {
   margin-left: 4%;
   flex: 0 0 92%;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #dce5eb;
+  box-shadow: 0 2px 6px rgba(20, 40, 60, 0.05);
 }
 
 /* Background colors for the columns */
 .col-1 {
-  background-color: #A3CDD9;
+  background-color: #e1f0f5;
 }
 .col-2 {
-  background-color: #FFFCE6;
+  background-color: #fff9e9;
 }
 .col-3 {
-  background-color: #F9D341;
+  background-color: #fae7a7;
 }
 .col-4 {
-  background-color: #C8BDB4;
+  background-color: #e4e7ec;
 }
 .col-fifth {
-  background-color: #DCE9DA;
+  background-color: #e4f0e1;
 }
 
 /* Tablet Landscape Screen Sizes */
